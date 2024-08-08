@@ -61,8 +61,8 @@ if (strlen(session_id())<1)
                 <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="img-circle" alt="User Image">
 
                 <p>
-                  alexander orozco  <br>
-                  desarrolo de software
+                  CAFECRAFT <br>
+                  desarrollo de software
                   <small>Enero 2024</small>
                 </p>
               </li>

@@ -70,8 +70,7 @@ if ($_SESSION['ventas']==1) {
      <div class="form-group col-lg-6 col-md-6 col-xs-12">
       <label for="">Tipo Comprobante(*): </label>
      <select name="tipo_comprobante" id="tipo_comprobante" class="form-control selectpicker" required>
-       <option value="Boleta">Boleta</option>
-       <option value="Factura">Factura</option>
+
        <option value="Ticket">Ticket</option>
      </select>
     </div>
@@ -98,7 +97,7 @@ if ($_SESSION['ventas']==1) {
         <th>Opciones</th>
         <th>Articulo</th>
         <th>Cantidad</th>
-        <th>Precio Venta</th>
+        <th>Precio Unidad</th>
         <th>Descuento</th>
         <th>Subtotal</th>
        </thead>
@@ -108,7 +107,7 @@ if ($_SESSION['ventas']==1) {
          <th></th>
          <th></th>
          <th></th>
-         <th><h4 id="total">S/. 0.00</h4><input type="hidden" name="total_venta" id="total_venta"></th>
+         <th><h4 id="total">COP. 0.00</h4><input type="hidden" name="total_venta" id="total_venta"></th>
        </tfoot>
        <tbody>
          
@@ -147,7 +146,7 @@ if ($_SESSION['ventas']==1) {
               <th>Categoria</th>
               <th>Código</th>
               <th>Stock</th>
-              <th>Precio Venta</th>
+              <th>Precio Unidad</th>
               <th>Imagen</th>
             </thead>
             <tbody>
@@ -159,7 +158,7 @@ if ($_SESSION['ventas']==1) {
               <th>Categoria</th>
               <th>Código</th>
               <th>Stock</th>
-              <th>Precio Venta</th>
+              <th>Precio Unidad</th>
               <th>Imagen</th>
             </tfoot>
           </table>

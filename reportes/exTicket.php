@@ -30,11 +30,11 @@ $rspta = $venta->ventacabecera($_GET["id"]);
 $reg=$rspta->fetch_object();
 
 //establecemos los datos de la empresa
-$empresa = "Tecnology S.A.C.";
+$empresa = "Café Esencia";
 $documento = "102589524";
-$direccion = "calle los alpes 120";
-$telefono = "854715648";
-$email = "angelinos257@gmail.com";
+$direccion = "centro comercial Guatapuri plaza LOCAL 182";
+$telefono = "3002145687";
+$email = "CafeEsenciaVup@gmail.com";
 	 ?>
 <div class="zona_impresion">
 	<!--codigo imprimir-->
@@ -100,7 +100,7 @@ $email = "angelinos257@gmail.com";
 		<tr>
 			<td>&nbsp;</td>
 			<td align="right"><b>TOTAL:</b></td>
-			<td align="right"><b>S/. <?php echo $reg->total_venta; ?></b></td>
+			<td align="right"><b>COP <?php echo $reg->total_venta; ?></b></td>
 		</tr>
 		<tr>
 			<td colspan="3">N° de articulos: <?php echo $cantidad; ?> </td>
@@ -112,10 +112,10 @@ $email = "angelinos257@gmail.com";
 			<td colspan="3" align="center">¡Gracias por su compra!</td>
 		</tr>
 		<tr>
-			<td colspan="3" align="center">AngshelinoWeb</td>
+			<td colspan="3" align="center">CAFECRAFT</td>
 		</tr>
 		<tr>
-			<td colspan="3" align="center">Arequipa - Peru</td>
+			<td colspan="3" align="center">Ds Alexander Orozco</td>
 		</tr>
 	</table>
 	<br>
